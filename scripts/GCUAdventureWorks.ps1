@@ -139,6 +139,7 @@ $storageContainerName = "importcontainer$(Get-Random)"
 $bacpacFilename = "adventureworks.bacpac"
 
 
+
 # Create a storage account 
 $storageAccount = New-AzStorageAccount -ResourceGroupName $resourceGroupName `
     -Name $storageAccountName `
