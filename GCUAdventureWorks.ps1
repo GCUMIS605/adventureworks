@@ -109,7 +109,7 @@ while (($success -ne 1) -and ($null -ne $preferred_list[$l])){
 
         New-AzResourceGroup -Name $resourceGroupName -Location $location -Force | Out-Null
 
-        New-AzSqlServer -ResourceGroupName $resourceGroupName `
+        $server = New-AzSqlServer -ResourceGroupName $resourceGroupName `
         -ServerName $serverName `
         -Location $location `
         -SqlAdministratorCredentials $(New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $adminSqlLogin, $(ConvertTo-SecureString -String $sqlPassword -AsPlainText -Force))
@@ -140,13 +140,13 @@ $bacpacFilename = "adventureworks.bacpac"
 
 
 # Create a storage account 
-New-AzStorageAccount -ResourceGroupName $resourceGroupName `
+$storageAccount = New-AzStorageAccount -ResourceGroupName $resourceGroupName `
     -Name $storageAccountName `
     -Location $location `
     -SkuName "Standard_LRS"
 
 # Create a storage container 
-New-AzStorageContainer -Name $storageContainerName `
+$storageContainer = New-AzStorageContainer -Name $storageContainerName `
     -Context $(New-AzStorageContext -StorageAccountName $storageAccountName `
         -StorageAccountKey $(Get-AzStorageAccountKey -ResourceGroupName $resourceGroupName -Name $storageAccountName).Value[0])
 
