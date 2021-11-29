@@ -65,7 +65,7 @@ now that you have an Azure account you are ready to Provision your Azure environ
 ***Note:** This script will take 15-30 minutes to complete*
 
 ### Download and Install Azure Data Studio
-Azure Data Studio is a cross-platform database tool for data professionals who use on-premises and cloud data platforms on Windows, macOS, and Linux.
+> Azure Data Studio is a cross-platform database tool for data professionals who use on-premises and cloud data platforms on Windows, macOS, and Linux.
 
 For download and installation instructions for Azure Data Studio, please see https://docs.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio?view=sql-server-ver15
 
