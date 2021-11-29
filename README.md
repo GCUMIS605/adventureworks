@@ -35,3 +35,8 @@ now that you have an Azure account you are ready to Provision your Azure environ
 Azure Data Studio is a cross-platform database tool for data professionals who use on-premises and cloud data platforms on Windows, macOS, and Linux.
 
 For download and installation instructions for Azure Data Studio, please see https://docs.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio?view=sql-server-ver15
+
+***Note:** You will also need the SQL Server Import extension for Azure Data Studio*
+
+The SQL Server Import extension converts .txt and .csv files into a SQL table.  For installation instructions, please see https://docs.microsoft.com/en-us/sql/azure-data-studio/extensions/sql-server-import-extension?view=sql-server-ver15
+
