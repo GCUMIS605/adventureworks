@@ -27,8 +27,8 @@ as a GCU student you are eligible for a 12-month Azure Subscription.*
 
 ![image](https://user-images.githubusercontent.com/32605416/143667008-6369d876-9f7b-49c5-8d04-4a38bc16da20.png)
 
-
-### Provision your Azure Environment.
+now that you have an Azure account you are ready to Provision your Azure environment.
+### Provision your Azure Environment
 
 
 ### Download and Install Azure Data Studio
