@@ -1,3 +1,4 @@
+#Azure initialization script
 # User must sign in using az login
 Write-Host "Sign into Azure using your credentials.."
 az login
