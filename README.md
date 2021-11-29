@@ -30,27 +30,29 @@ as a GCU student you are eligible for a 12-month Azure Subscription.*
 now that you have an Azure account you are ready to Provision your Azure environment.
 
 ### Provision your Azure Environment
-> todo
 
 1. Open a browser to https://shell.azure.com
+
+
 2. Select PowerShell as the scripting language
 
 ![image](https://user-images.githubusercontent.com/32605416/143921670-87777ea5-33eb-4439-9d67-c4447beabde0.png)
 
 3. In the Azure Shell run the following command to copy the configuration files, this may take a couple of minutes.
-git clone https://github.com/GCUMIS605/adventureworks.git
+
+`git clone https://github.com/GCUMIS605/adventureworks.git`
 
 ![image](https://user-images.githubusercontent.com/32605416/143924851-4d17b57f-6fab-4370-b6ea-edbb7871fede.png)
 
 4. In PowerShell, use the following command to change directories to the folder containing the automation scripts.
 
-cd ./adventureworks/scripts/
+`cd ./adventureworks/scripts/`
 
 ![image](https://user-images.githubusercontent.com/32605416/143925271-2fe87cd9-aac2-48d6-97ff-59503691e764.png)
 
 5. In PowerShell, enter the following command to run the setup script:
 
-.\GCUAdventureWorks.ps1
+`.\GCUAdventureWorks.ps1`
 
 6. When prompted to sign into Azure, and your browser opens; sign in using your credentials. After signing in, you can close the browser and return to Windows PowerShell, which should display the Azure subscriptions to which you have access.
 
